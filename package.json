@@ -12,7 +12,7 @@
   "dependencies": {
     "@aspectron/flow-logger": ">=1.0.1",
     "@aspectron/web-worker": "^1.0.0",
-    "@anuma-network/wallet": "file:../anuma-wallet"
+    "@anuma-network/wallet": ">=1.4.26"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
@@ -27,5 +27,22 @@
     "README.md",
     "tsconfig.json",
     "worker.js"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnumaNetwork/anuma-wallet-worker.git"
+  },
+  "keywords": [
+    "anuma",
+    "network",
+    "wallet",
+    "worker"
+  ],
+  "bugs": {
+    "url": "https://github.com/AnumaNetwork/anuma-wallet-worker/issues"
+  },
+  "homepage": "https://github.com/AnumaNetwork/anuma-wallet-worker#readme"
 }
